@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Walentynki 💘</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card" id="step1">
+    <h1>Czy będziesz moją walentynką? 💖</h1>
+    <button onclick="yes()">TAK</button>
+    <button onclick="no()">NIE</button>
+</div>
+
+<div class="card hidden" id="step2">
+    <h1>Wybierz aktywność</h1>
+    <button onclick="goDinner()">🍽️🍷</button>
+    <button onclick="church()">⛪️</button>
+</div>
+
+<div class="card hidden" id="step3">
+    <h1>Do zobaczenia<br>13 lutego o 19:00 ❤️</h1>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
